@@ -39,6 +39,9 @@ public class Listener implements org.bukkit.event.Listener {
         Player player = event.getPlayer();
         player.setScoreboard(DPSCounter.dpsScore);
         player.setScoreboard(DPSCounter.ScoreHidden);
+        player.setScoreboard(DPSCounter.FirstTime);
+        player.setScoreboard(DPSCounter.Interval);
+        player.setScoreboard(DPSCounter.timeScore);
         Bukkit.getLogger().info(String.valueOf(player.getScoreboard()));
         Bukkit.getLogger().info("player joined");
     }
