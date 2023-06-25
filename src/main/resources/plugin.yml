@@ -1,0 +1,17 @@
+name: DPSCounter
+version: '${version}'
+main: org.dps.dpscounter.DPSCounter
+api-version: 1.19
+commands:
+  startcountdown:
+    usage: /startcountdown
+    permission: operator
+    permission-message: You do not have the necessary permissions to perform this action.
+  endcountdown:
+    usage: /endcountdown
+    permission: operator
+    permission-message: You do not have the necessary permissions to perform this action.
+  dps:
+    usage: /dps
+    permission: operator
+    permission-message: You do not have the necessary permissions to perform this action.
